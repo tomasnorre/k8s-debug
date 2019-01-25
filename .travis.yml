@@ -5,4 +5,4 @@ services:
 script:
   - docker build . -t tomasnorre/k8s-debug:latest
   - docker login -u $DOCKER_USERNAME -p $DOCKER_PASSWORD
-  - docker push docker push tomasnorre/k8s-debug:latest
+  - docker push tomasnorre/k8s-debug:latest
